@@ -1,0 +1,19 @@
+# Web app
+streamlit>=1.40
+
+# Model / inference (YOLOv7 code is included in ./yolov7)
+torch>=1.12
+torchvision>=0.13
+opencv-python-headless>=4.7
+numpy>=1.23
+pandas>=1.5
+PyYAML>=6.0
+scipy>=1.9
+tqdm>=4.64
+matplotlib>=3.6
+seaborn>=0.12
+Pillow>=9.0
+requests>=2.28
+
+# H.264 encoding so result videos play in the browser (used when ffmpeg is not installed)
+imageio-ffmpeg>=0.4.9

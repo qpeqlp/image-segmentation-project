@@ -1,0 +1,8 @@
+preprocessing,accuracy,damaged_recall,damaged_precision,intact_recall,intact_precision
+original,0.839,0.796,0.89,0.889,0.789
+CLAHE,0.831,0.775,0.895,0.898,0.773
+denoise,0.825,0.742,0.915,0.923,0.753
+sharpen,0.833,0.811,0.868,0.86,0.795
+glare_reduction,0.845,0.851,0.857,0.838,0.828
+brightness+20,0.835,0.807,0.874,0.868,0.794
+contrast x1.3,0.825,0.804,0.86,0.851,0.787
